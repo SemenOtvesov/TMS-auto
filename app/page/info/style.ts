@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import useWindowSizeCheck, { TwindowSize } from 'ts/hooks/useWindowSizeCheck';
-import posAbs from '@app/style/allStyled/posAbs';
+import posAbs from '@ts/style/allStyled/posAbs';
 import { SxProps } from '@mui/material';
 
 export default () => {

@@ -5,14 +5,9 @@
     "private": true,
     "homepage": "",
     "scripts": {
-        "build": "next build",
-        "nextServ": "next dev --turbo",
-        "dev": "cross-env NODE_ENV=development webpack --mode development",
-        "serv": "cross-env NODE_ENV=development webpack-dev-server --mode development --open",
-        "servBuild": "cross-env NODE_ENV=production webpack-dev-server --mode production --open",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
-        "test": "jest"
+        "serv": "next dev --turbo",
+        "dev": "node server.js",
+        "build": "next build"
     },
     "browserslist": "> 0.25%, not dead",
     "keywords": [

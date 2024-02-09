@@ -1,4 +1,4 @@
-import { $gray, $liteBackground } from '@app/style/allStyled/colors';
+import { $gray, $liteBackground } from '@ts/style/allStyled/colors';
 import styled from '@emotion/styled';
 import useWindowSizeCheck from 'ts/hooks/useWindowSizeCheck';
 

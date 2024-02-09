@@ -46,10 +46,11 @@ module.exports = {
         alias: {
             '@app': path.resolve(__dirname, 'app'),
             '@docs': path.resolve(__dirname, 'docs'),
+            '@ts': path.resolve(__dirname, 'ts'),
             '@locTypes': path.resolve(__dirname, 'ts/locTypes'),
             '@store': path.resolve(__dirname, 'ts/store'),
 
-            '@components': path.resolve(__dirname, 'app/components'),
+            '@components': path.resolve(__dirname, 'app/ts/components'),
 
             '@firebaseInit': path.resolve(__dirname, 'ts/firebase/init'),
         },

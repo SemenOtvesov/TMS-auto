@@ -1,7 +1,7 @@
 'use client';
-import CalculationUser from '@app/components/helpers/calculationUser';
-import FeedbackForm from '@app/components/helpers/feedbackForm';
-import GridInfo, { Tsteps } from '@app/components/helpers/gridInfo';
+import CalculationUser from '@ts/components/helpers/calculationUser';
+import FeedbackForm from '@ts/components/helpers/feedbackForm';
+import GridInfo, { Tsteps } from '@ts/components/helpers/gridInfo';
 import { itemContainer } from '@app/page/style';
 import componentsStyle from '@components/carsFrom/style';
 import { store } from '@store/index';

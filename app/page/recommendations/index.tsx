@@ -1,8 +1,8 @@
 import React from 'react';
 import { itemContainer } from '../style';
 import RecentlyPurchased from './recentlyPurchased';
-import FeedbackForm from '@app/components/helpers/feedbackForm';
-import CalculationUser from '@app/components/helpers/calculationUser';
+import FeedbackForm from '@ts/components/helpers/feedbackForm';
+import CalculationUser from '@ts/components/helpers/calculationUser';
 
 type Tprops = {};
 

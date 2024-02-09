@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import useWindowSizeCheck from 'ts/hooks/useWindowSizeCheck';
-import { $liteBackground } from '@app/style/allStyled/colors';
+import { $liteBackground } from '@ts/style/allStyled/colors';
 
 export default () => {
     const size = useWindowSizeCheck();

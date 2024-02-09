@@ -1,7 +1,7 @@
 'use client';
-import Image from '@app/components/helpers/image/image';
+import Image from '@ts/components/helpers/image/image';
 import style from './style';
-import ArrowButton from '@app/components/helpers/arrowButton';
+import ArrowButton from '@ts/components/helpers/arrowButton';
 
 type Tprops = {
     card: {

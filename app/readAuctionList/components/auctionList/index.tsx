@@ -1,5 +1,5 @@
 'use client';
-import AuctionListBody from '@app/components/helpers/auctionListBody';
+import AuctionListBody from '@ts/components/helpers/auctionListBody';
 import style from './style';
 import styleMain from '@app/readAuctionList/style';
 

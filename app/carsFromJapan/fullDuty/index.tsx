@@ -3,7 +3,7 @@ import { itemContainer } from '@app/page/style';
 import style from '@components/carsFrom/style';
 import { Provider } from 'react-redux';
 import { store } from '@store/index';
-import CalculationUser from '@app/components/helpers/calculationUser';
+import CalculationUser from '@ts/components/helpers/calculationUser';
 
 export default () => {
     const { Title, Text, size } = style();

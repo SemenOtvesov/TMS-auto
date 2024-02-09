@@ -2,10 +2,10 @@
 import { Tcountry } from '@locTypes/state/carState';
 import style from './style';
 import styleMain from '@app/readAuctionList/style';
+import { useSearchParams } from 'next/navigation';
 
 type Tprops = {
     type: 'preview' | 'info';
-    country: Tcountry;
 };
 const configurate = (country: Tcountry) => ({
     preview: {
@@ -18,7 +18,8 @@ const configurate = (country: Tcountry) => ({
     },
 });
 
-export default ({ type, country }: Tprops) => {
+export default ({ type }: Tprops) => {
+    const country = (useSearchParams()?.get('country') as Tcountry) || 'japan';
     const configurateInst = country && configurate(country);
     const { Container, Text } = style();
     const { TitleItems } = styleMain();

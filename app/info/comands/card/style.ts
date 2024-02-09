@@ -1,4 +1,4 @@
-import { $gray } from '@app/style/allStyled/colors';
+import { $gray } from '@ts/style/allStyled/colors';
 import styled from '@emotion/styled';
 import useWindowSizeCheck from 'ts/hooks/useWindowSizeCheck';
 
@@ -9,8 +9,8 @@ export default () => {
             flex: size.isMobile
                 ? '100%'
                 : size.isTab
-                ? '0 0 calc(50% - 1em)'
-                : '0 0 calc(33.33% - 0.67em)',
+                  ? '0 0 calc(50% - 1em)'
+                  : '0 0 calc(33.33% - 0.67em)',
 
             aspectRatio: '1/1.26',
             border: `1px solid rgba(120, 120, 120, 0.5);`,

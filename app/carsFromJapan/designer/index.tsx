@@ -1,7 +1,7 @@
 import { itemContainer } from '@app/page/style';
 import React from 'react';
 import style from '@components/carsFrom/style';
-import FeedbackForm from '@app/components/helpers/feedbackForm';
+import FeedbackForm from '@ts/components/helpers/feedbackForm';
 
 export default () => {
     const { Title, Text, size } = style();

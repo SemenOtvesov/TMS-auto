@@ -1,5 +1,5 @@
 'use client';
-import Breadcrums from '@app/components/helpers/breadcrums';
+import Breadcrums from '@ts/components/helpers/breadcrums';
 import styleIndex, { itemContainer } from '@app/page/style';
 import style from './style';
 import LeftItem from './leftItem';
@@ -12,7 +12,6 @@ const itemList = [
 ];
 
 export default () => {
-    if (typeof window === 'undefined') return;
     const { Container } = styleIndex();
     const ItemContainer = itemContainer();
     const { ContainerMain, Left, Title, Right } = style();

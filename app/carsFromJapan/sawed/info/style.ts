@@ -1,7 +1,7 @@
-import { $liteBackground } from '@app/style/allStyled/colors';
+import { $liteBackground } from '@ts/style/allStyled/colors';
 import styled from '@emotion/styled';
 import useWindowSizeCheck from 'ts/hooks/useWindowSizeCheck';
-import posAbs from '@app/style/allStyled/posAbs';
+import posAbs from '@ts/style/allStyled/posAbs';
 
 export default () => {
     const size = useWindowSizeCheck();

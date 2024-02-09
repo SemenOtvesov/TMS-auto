@@ -1,5 +1,5 @@
 'use client';
-import Image from '@app/components/helpers/image/image';
+import Image from '@ts/components/helpers/image/image';
 import { ItemContainerTitle, itemContainer } from '../style';
 import CardList from './cardList';
 import style from './style';

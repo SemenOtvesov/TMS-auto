@@ -1,5 +1,5 @@
 'use client';
-import FeedbackForm from '@app/components/helpers/feedbackForm';
+import FeedbackForm from '@ts/components/helpers/feedbackForm';
 import { ItemContainerTitle, itemContainer } from '../style';
 import AccordionBox from './accordionBox/index';
 import style from './style';

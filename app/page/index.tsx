@@ -9,7 +9,6 @@ import Info from './info/index';
 import Question from './question/index';
 
 export default () => {
-    if (typeof window === 'undefined') return;
     const { Container } = style();
     return (
         <Provider store={store}>

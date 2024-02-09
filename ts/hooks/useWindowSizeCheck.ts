@@ -8,16 +8,7 @@ export type TwindowSize = {
 };
 
 export default (): TwindowSize => {
-    const [scrollWidth, setScrollWidth] = useState(
-        Math.max(
-            document.body.scrollWidth,
-            document.documentElement.scrollWidth,
-            document.body.offsetWidth,
-            document.documentElement.offsetWidth,
-            document.body.clientWidth,
-            document.documentElement.clientWidth,
-        ),
-    );
+    const [scrollWidth, setScrollWidth] = useState(769);
     const ret = {
         isMobile: scrollWidth <= 425,
         isTab: scrollWidth > 425 && scrollWidth < 769,
@@ -26,6 +17,7 @@ export default (): TwindowSize => {
     };
 
     useEffect(() => {
+        resizeFn(setScrollWidth, new Event(''));
         const bindFn = resizeFn.bind(this, setScrollWidth);
         window.addEventListener('resize', bindFn);
         return () => window.removeEventListener('resize', bindFn);
@@ -41,8 +33,6 @@ export default (): TwindowSize => {
 function resizeFn(setScrollWidth: Dispatch<SetStateAction<number>>, e: Event) {
     setScrollWidth(
         Math.max(
-            document.body.scrollWidth,
-            document.documentElement.scrollWidth,
             document.body.offsetWidth,
             document.documentElement.offsetWidth,
             document.body.clientWidth,

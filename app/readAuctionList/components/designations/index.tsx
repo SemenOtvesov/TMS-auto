@@ -159,8 +159,8 @@ export default ({ type }: Tprops) => {
                 буквами:
             </Text>
             <List>
-                {listInfo[type].map(el => (
-                    <ItemInst>
+                {listInfo[type].map((el, i) => (
+                    <ItemInst key={el.text + i}>
                         <ItemTitleLong>{el.title}</ItemTitleLong>
                         <ItemText>{el.text}</ItemText>
                     </ItemInst>

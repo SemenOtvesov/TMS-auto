@@ -4,7 +4,7 @@ import FullDuty from './fullDuty/index';
 import Sawed from './sawed/index';
 import Designer from './designer/index';
 import Preview from '@components/carsFrom/preview/index';
-import Prise from '@app/components/carsFrom/prise';
+import Prise from '@ts/components/carsFrom/prise';
 
 const titlePreview = 'Авто из Японии';
 const textPreview = `Наша команда поможет вам в покупке автомобиля из Японии. Чаще всего покупают авто
@@ -13,7 +13,6 @@ const textPreview = `Наша команда поможет вам в покуп
 беспрепятственной постановки на учет в органах Госавтоинспекции РФ.`;
 
 export default () => {
-    if (typeof window === 'undefined') return;
     const { Container } = styleIndex();
     return (
         <Container>

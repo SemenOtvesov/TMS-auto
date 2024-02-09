@@ -2,7 +2,7 @@
 import { Button } from '@mui/material';
 import style from './style';
 import { ItemContainerTitle } from '@app/page/style';
-import { $background } from '@app/style/allStyled/colors';
+import { $background } from '@ts/style/allStyled/colors';
 
 export default () => {
     const { Container, Text, Input, InputContainer, ButtonSx } = style();

@@ -2,7 +2,7 @@
 import style from './style';
 import componentsStyle from '@components/carsFrom/style';
 import { itemContainer } from '@app/page/style';
-import Image from '@app/components/helpers/image/image';
+import Image from '@ts/components/helpers/image/image';
 import Info from './info/index';
 import Bottom from './bottom/index';
 

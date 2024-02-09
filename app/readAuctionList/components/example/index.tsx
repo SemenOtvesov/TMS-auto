@@ -1,7 +1,7 @@
 'use client';
 import style from './style';
 import styleMain from '@app/readAuctionList/style';
-import Image from '@app/components/helpers/image/image';
+import Image from '@ts/components/helpers/image/image';
 
 export default () => {
     const { Container, ImageBox } = style();

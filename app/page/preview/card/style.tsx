@@ -1,4 +1,4 @@
-import { $background, $red } from '@app/style/allStyled/colors';
+import { $background, $red } from '@ts/style/allStyled/colors';
 import styled from '@emotion/styled';
 import { SxProps } from '@mui/material';
 import useWindowSizeCheck, { TwindowSize } from 'ts/hooks/useWindowSizeCheck';

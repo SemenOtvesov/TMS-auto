@@ -65,8 +65,8 @@ export default () => {
         <Container>
             <TitleItems>Расшифровка оценки автомобиля в аукционном листе</TitleItems>
             <List>
-                {listInfo.map(el => (
-                    <ItemInst>
+                {listInfo.map((el, i) => (
+                    <ItemInst key={el.title + i}>
                         <ItemTitle>{el.title}</ItemTitle>
                         <ItemText>{el.text}</ItemText>
                     </ItemInst>

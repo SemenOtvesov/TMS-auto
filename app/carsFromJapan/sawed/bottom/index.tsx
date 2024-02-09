@@ -2,7 +2,7 @@
 import { itemContainer } from '@app/page/style';
 import style from './style';
 import componentsStyle from '@components/carsFrom/style';
-import Image from '@app/components/helpers/image/image';
+import Image from '@ts/components/helpers/image/image';
 
 export default () => {
     const { ExampleBox, Example, ExampleText, ImageBox } = style();

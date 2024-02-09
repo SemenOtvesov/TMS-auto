@@ -1,10 +1,8 @@
 'use client';
-import Breadcrums from '@app/components/helpers/breadcrums';
+import Breadcrums from '@ts/components/helpers/breadcrums';
 import styleIndex, { itemContainer } from '@app/page/style';
 import style from './style';
-import { Tcountry } from '@locTypes/state/carState';
-import { useSearchParams } from 'next/navigation';
-import FeedbackForm from '@app/components/helpers/feedbackForm';
+import FeedbackForm from '@ts/components/helpers/feedbackForm';
 import TextBox from './components/textBox';
 import Example from './components/example';
 import Info from './components/info';
@@ -12,21 +10,22 @@ import Decoding from './components/decoding';
 import Estimation from './components/estimation';
 import AuctionList from './components/auctionList';
 import Designations from './components/designations';
+import { Suspense } from 'react';
 
 export default () => {
-    if (typeof window === 'undefined') return;
     const { Container } = styleIndex();
     const ItemContainer = itemContainer();
     const { ContainerMain } = style();
 
-    const country = useSearchParams()?.get('country') as Tcountry;
     return (
         <Container>
             <ItemContainer>
                 <Breadcrums />
                 <ContainerMain>
-                    <TextBox type="preview" country={country} />
-                    <TextBox type="info" country={country} />
+                    <Suspense>
+                        <TextBox type="preview" />
+                        <TextBox type="info" />
+                    </Suspense>
                     <Example />
                     <Info />
                     <Decoding />

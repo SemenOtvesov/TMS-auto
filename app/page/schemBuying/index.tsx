@@ -1,8 +1,8 @@
 'use client';
-import FeedbackForm from '@app/components/helpers/feedbackForm';
+import FeedbackForm from '@ts/components/helpers/feedbackForm';
 import style from './style';
 import { itemContainer } from '../style';
-import GridInfo, { Tsteps } from '@app/components/helpers/gridInfo';
+import GridInfo, { Tsteps } from '@ts/components/helpers/gridInfo';
 
 const steps: Tsteps = [
     {

@@ -18,9 +18,10 @@
         "paths": {
             "@app/*": ["app/*"],
             "@docs/*": ["docs/*"],
+            "@ts/*": ["ts/*"],
             "@locTypes/*": ["ts/locTypes/*"],
             "@store/*": ["ts/store/*"],
-            "@components/*": ["app/components/*"],
+            "@components/*": ["ts/components/*"],
             "@firebaseInit": ["ts/firebase/init"]
         },
         "incremental": true,

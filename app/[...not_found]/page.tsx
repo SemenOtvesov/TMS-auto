@@ -4,7 +4,6 @@ import style from './style';
 import Link from 'next/link';
 
 export default () => {
-    if (typeof window === 'undefined') return;
     const { Container } = styleIndex();
     const ItemContainer = itemContainer();
     const { ContainerMain, Title, MiddleText, Text, Button } = style();
