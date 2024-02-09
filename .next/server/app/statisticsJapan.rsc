@@ -1,0 +1,5 @@
+2:I[5613,[],""]
+3:I[1778,[],""]
+0:["paSF0oxZp_8hWtY0xKcRr",[[["",{"children":["statisticsJapan",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",{"children":["statisticsJapan",{"children":["__PAGE__",{},["$L1","$undefined",null]]},[null,["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children","statisticsJapan","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]]},[null,"$undefined",null]],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3963938321c0f1c5.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+4:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"СТАТИСТИКА ЯПОНИЯ"}]]
+1:null
